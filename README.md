@@ -1,16 +1,82 @@
-# React + Vite
+# react-dndkit-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-Currently, two official plugins are available:
+## 📝 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The react-dndkit-project provides a robust and flexible drag-and-drop solution built entirely with React. Leveraging the power of React, this library offers a smooth and intuitive user experience for implementing drag-and-drop functionality within your applications. While specific features are not listed, the project aims to empower developers with the tools to create highly customizable and interactive interfaces. Keep an eye out for updates detailing the specific APIs and components offered by react-dndkit-project as it evolves.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Key Dependencies
+
+```
+@dnd-kit/core: ^6.3.1
+@dnd-kit/sortable: ^10.0.0
+@dnd-kit/utilities: ^3.2.2
+react: ^19.2.0
+react-dom: ^19.2.0
+uuid: ^13.0.0
+```
+
+## 🚀 Run Commands
+
+- **dev**: `npm run dev`
+- **build**: `npm run build`
+- **lint**: `npm run lint`
+- **preview**: `npm run preview`
+
+
+## 📁 Project Structure
+
+```
+.
+├── eslint.config.js
+├── index.html
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Items.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── BoardSection.jsx
+│   │   ├── BoardSectionList.jsx
+│   │   ├── SortableItem.jsx
+│   │   └── TaskItem.jsx
+│   ├── constants
+│   │   └── index.js
+│   ├── index.css
+│   ├── main.jsx
+│   └── utils
+│       └── index.js
+└── vite.config.js
+```
+
+## 🛠️ Development Setup
+
+### Node.js/JavaScript Setup
+1. Install Node.js (v18+ recommended)
+2. Install dependencies: `npm install` or `yarn install`
+3. Start development server: (Check scripts in `package.json`, e.g., `npm run dev`)
+
+
+## 👥 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Clone** your fork: `git clone https://github.com/azizleyla/react-dndkit-project.git`
+3. **Create** a new branch: `git checkout -b feature/your-feature`
+4. **Commit** your changes: `git commit -am 'Add some feature'`
+5. **Push** to your branch: `git push origin feature/your-feature`
+6. **Open** a pull request
+
+Please ensure your code follows the project's style guidelines and includes tests where applicable.
+
