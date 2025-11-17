@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+
+body {
+  background-color: #005485;
+}
+
 .content {
   height: 30px;
   padding: 10px;
@@ -24,4 +29,24 @@
     grid-template-columns: 1fr;
     /* hamısı alt-alta */
   }
+}
+
+.column-area {
+  background: #242528;
+  transition: background 0.2s ease;
+  border-radius: 0.5rem;
+  padding: 5px;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+
+
+.column-highlight {
+  background: #28311B;
+  /* tünd yaşıl */
+  /* Açıqca rəngi seçilir */
+  border: 1px solid #4a4f58;
 }

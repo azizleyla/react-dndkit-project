@@ -1,11 +1,11 @@
 import React from "react";
 
-const TaskItem = ({ task }) => {
+const TaskItem2 = ({task}) => {
   return (
-    <div className="column-area">
+    <div>
       <h4 className="font-semibold text-[#BFC1C4]">{task.title}</h4>
     </div>
   );
 };
 
-export default TaskItem;
+export default TaskItem2;
